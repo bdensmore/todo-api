@@ -34,9 +34,6 @@ app.get('/todos', function(req, res) {
   }).then(function(todos) {
     if (!!todos) {
       res.json(todos);
-      // todos.forEach(function(todo) {
-      //   res.json(todo.toJSON()); 
-      // });
     } else { 
       res.status(404).send()
     }
