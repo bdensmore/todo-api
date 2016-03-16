@@ -112,7 +112,10 @@ app.put('/todos/:id', function(req, res) {
 });
 
 
-// User Routes
+// Users Routes
+
+// GET /users
+
 
 // POST /users
 app.post('/users', function(req, res) {
