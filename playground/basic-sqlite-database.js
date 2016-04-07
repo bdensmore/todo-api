@@ -27,7 +27,7 @@ sequelize.sync({
     if (todo) {
       console.log(todo.toJSON());
     } else {
-      console.log(' No todo with that id was found! ');
+      console.log(' No todo with that id was ever found! ');
     }
   });
   
